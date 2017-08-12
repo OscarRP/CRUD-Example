@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CRUD Example</string>
+
+    <!-- Splash Activity -->
+    <string name="crud">CRUD</string>
+    <string name="example">Example</string>
+    <string name="create">Create</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+    <!-- Home Activity -->
+    <string name="home_header">Listado de Usuarios</string>
+    <string name="search">Buscar usuario:</string>
+
+    <!-- Home Fragment Loading Error -->
+    <string name="home_title">Error</string>
+    <string name="home_description">Ha ocurrido un error al cargar los datos, vuelve a intentarlo</string>
+    <string name="home_reload_button">Volver a cargar</string>
+
+    <!-- Detail User Fragment Updating Error -->
+    <string name="update_description">Ha ocurrido un error al actualizar el usuario</string>
+
+    <!-- Delete User Dialog -->
+    <string name="delete_title">Eliminar Usuario</string>
+    <string name="delete_description">¿Estas seguro que deseas eliminar este usuario?</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="deleted">Usuario eliminado correctamente</string>
+
+    <string name="delete_error_description">Ha ocurrido un error al eliminar el usuario</string>
+
+    <!-- Add User Dialog -->
+    <string name="add_title">Añadir Usuario</string>
+    <string name="add_description">Debes introducir el nombre y fecha de nacimiento del usuario</string>
+    <string name="error_add_description">Ha ocurrido un error al crear el usuario</string>
+
+    <!-- Select User Image -->
+    <string name="select_option">Selecciona una opción</string>
+
+    <!-- No Internet Connection Dialog -->
+    <string name="title_no_connection">Error de conexión</string>
+    <string name="description_no_connection">Comprueba tu conexión a internet y vuelve a intentarlo</string>
+
+    <!-- Options Menu -->
+    <string name="add_user">Añadir Usuario</string>
+    <string name="delete_user">Eliminar Usuario</string>
+    <string name="undo_editing">Deshacer Editar Usuario</string>
+    <string name="close_sesion">Cerrar Sesion</string>
+    <string name="edit_user">Editar Usuario</string>
+
+    <!-- Add User -->
+    <string name="add_user_header">Añadir Usuario</string>
+    <string name="type_user_name">Nombre del usuario</string>
+    <string name="type_user_birthdate">Fecha de nacimiento</string>
+    <string name="user_created">Usuario creado correctamente</string>
+
+    <!-- Edit User -->
+    <string name="detail_user_header">Detalle Usuario</string>
+    <string name="edit">Editar</string>
+    <string name="user_edited">Usuario modificado</string>
+
+</resources>

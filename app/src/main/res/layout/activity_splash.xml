@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.oscarruiz.myapplication.activities.SplashActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crud_text_view"
+        android:text="@string/crud"
+        style="@style/app_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/example_text_view"
+        android:text="@string/example"
+        style="@style/app_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_text_view"
+        android:text="@string/create"
+        android:layout_marginTop="30dp"
+        style="@style/descriptions"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/read_text_view"
+        android:text="@string/read"
+        android:layout_marginTop="10dp"
+        style="@style/descriptions"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_text_view"
+        android:text="@string/update"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        style="@style/descriptions"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_text_view"
+        android:text="@string/delete"
+        android:layout_marginTop="10dp"
+        style="@style/descriptions"/>
+
+</LinearLayout>
